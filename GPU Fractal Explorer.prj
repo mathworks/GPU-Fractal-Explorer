@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3880164320" file="/Users/bjt/Code/MATLAB/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/Users/bjt/Code/MATLAB/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2558423483" file="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
     <param.appname>GPU Fractal Explorer</param.appname>
     <param.authnamewatermark>Ben Tordoff</param.authnamewatermark>
     <param.email>ben.tordoff@mathworks.com</param.email>
@@ -39,10 +39,10 @@ You might also be interested in my other GPU fractal apps:
       <item>Parallel Computing Toolbox</item>
     </param.products.name>
     <param.products.id>
-      <item>80</item>
+      <item>-1</item>
     </param.products.id>
     <param.products.version>
-      <item>7.4</item>
+      <item>-1</item>
     </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
@@ -80,26 +80,69 @@ You might also be interested in my other GPU fractal apps:
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="/Users/bjt/Code/MATLAB" name="GPU-Fractal-Explorer" optional="false">/Users/bjt/Code/MATLAB/GPU-Fractal-Explorer</file>
+      <file location="/home/btordoff/matlab/FileExchangeSubmissions" name="GPU-Fractal-Explorer" optional="false">/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>/Applications/MATLAB_R2021a.app</root>
-      <toolboxes />
+      <root>/mathworks/UK/devel/archive/R2020b/perfect/matlab</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
     </matlab>
     <platform>
       <unix>true</unix>
-      <mac>true</mac>
+      <mac>false</mac>
       <windows>false</windows>
       <win2k>false</win2k>
       <winxp>false</winxp>
       <vista>false</vista>
-      <linux>false</linux>
+      <linux>true</linux>
       <solaris>false</solaris>
-      <osver>10.16</osver>
+      <osver>4.19.0-13-amd64</osver>
       <os32>false</os32>
       <os64>true</os64>
-      <arch>maci64</arch>
+      <arch>glnxa64</arch>
       <matlab>true</matlab>
     </platform>
   </configuration>
