@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2558423483" file="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3019309645" file="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
     <param.appname>GPU Fractal Explorer</param.appname>
     <param.authnamewatermark>Ben Tordoff</param.authnamewatermark>
     <param.email>ben.tordoff@mathworks.com</param.email>
     <param.company>MathWorks</param.company>
     <param.icon>${PROJECT_ROOT}/GPU Fractal Explorer_resources/icon_24.png</param.icon>
     <param.icons>
-      <file>/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUFractals/GPU Fractal Explorer_resources/icon_48.png</file>
-      <file>/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUFractals/GPU Fractal Explorer_resources/icon_24.png</file>
-      <file>/mathworks/home/btordoff/matlab/FileExchangeSubmissions/GPUFractals/GPU Fractal Explorer_resources/icon_16.png</file>
+      <file>${PROJECT_ROOT}/GPU Fractal Explorer_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/GPU Fractal Explorer_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/GPU Fractal Explorer_resources/icon_16.png</file>
     </param.icons>
     <param.summary>Explore several fractals using MATLAB and an NVIDIA GPU</param.summary>
     <param.description>This application allows you to explore several different fractals in MATLAB with the help of a capable NVIDIA GPU. It was inspired by Cleve Moler's article &lt;a href="https://www.mathworks.com/company/newsletters/articles/gpu-enables-obsession-with-fractals.html"&gt;GPU Enables Obsession with Fractals&lt;/a&gt;, where each fractal has the common pattern that every location (i.e. pixel in the resulting image) can be calculated independently. This makes them trivially parallel and eminently suitable for acceleration on a GPU using the &lt;a href="https://www.mathworks.com/help/parallel-computing/gpuarray.arrayfun.html"&gt;gpuArray/arrayfun&lt;/a&gt; feature. 
