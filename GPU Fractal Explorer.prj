@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3019309645" file="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2551556181" file="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer/GPU Fractal Explorer.prj" location="/home/btordoff/matlab/FileExchangeSubmissions/GPU-Fractal-Explorer" name="GPU Fractal Explorer" target="target.mlapps" target-name="Package App">
     <param.appname>GPU Fractal Explorer</param.appname>
     <param.authnamewatermark>Ben Tordoff</param.authnamewatermark>
     <param.email>ben.tordoff@mathworks.com</param.email>
@@ -75,7 +75,10 @@ You might also be interested in my other GPU fractal apps:
     </fileset.depfun>
     <fileset.resources>
       <file>${PROJECT_ROOT}/+colormap</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/SECURITY.md</file>
       <file>${PROJECT_ROOT}/icons</file>
+      <file>${PROJECT_ROOT}/license.txt</file>
       <file>${PROJECT_ROOT}/locations</file>
     </fileset.resources>
     <fileset.package />
